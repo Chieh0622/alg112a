@@ -1,5 +1,4 @@
 n = int(input('Enter number:'))
-fib = []
 
 def fib(n):
     fib = [0, 1]
