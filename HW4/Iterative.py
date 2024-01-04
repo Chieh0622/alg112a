@@ -1,8 +1,8 @@
 # x^2 - 3x + 1 = 0
 
-f1 = lambda x: x - (x ** 2 + 1) / (-3)
-f2 = lambda x: x - (x ** 2 - 3 + 1) / (2 * 1 - 3)
-f3 = lambda x: x - (x ** 2 - 3 * 2 + 1) / (2 * 2 - 3)
+f1 = lambda x: 3 - 1/x
+f2 = lambda x: (x - 1)**2
+f3 = lambda x: (x**2 + 1)/3
 
 x1 = x2 = x3 = 1
 
