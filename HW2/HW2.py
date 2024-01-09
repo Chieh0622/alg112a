@@ -1,5 +1,3 @@
-
-
 # 方法 1
 def power2n(n):
     return 2**n

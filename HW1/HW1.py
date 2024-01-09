@@ -1,4 +1,4 @@
-n = int(input('Enter number:'))
+# 原創
 
 def fib(n):
     fib = [0, 1]
@@ -10,4 +10,5 @@ def fib(n):
             fib.append(fib[i-1] + fib[i-2])
     return fib[n]
 
+n = int(input('Enter number:'))
 print(f'fib({n}) = {fib(n)}')
