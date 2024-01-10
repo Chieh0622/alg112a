@@ -5,4 +5,5 @@ def truthtable(n, current_table=[]):
         for value in [0, 1]:
             truthtable(n - 1, current_table + [value])
 
-truthtable(int(input("enter number : ")))
+n = int(input('enter number:'))
+truthtable(n)

@@ -7,4 +7,4 @@ def solution(n):
     return ans
 for i in arange(-100,100,0.001):
     if abs(solution(i)) < 0.001:
-        print("x=", i, " f(x)=", solution(i)) 
+        print("x=", i, " f(x)=", solution(i))
