@@ -1,4 +1,4 @@
-# 使用ChatGPT輔助
+# 使用ChatGPT，並理解
 
 def is_safe(board, row, col, n):
     # 檢查同一列是否有皇后

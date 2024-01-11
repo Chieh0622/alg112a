@@ -1,3 +1,5 @@
+# 原創
+
 def truthtable(n, current_table=[]):
     if n == 0:
         print(current_table) 

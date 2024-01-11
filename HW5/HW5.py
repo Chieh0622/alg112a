@@ -1,4 +1,5 @@
-#使用ChatGPT幫助
+#使用ChatGPT輔助
+
 import random
 
 def neighbor(f, p, h=0.01):
@@ -21,7 +22,7 @@ def hillClimbing(f, p, h=0.01):
             failCount = 0              # 失敗次數歸零
         else:                          # 若沒有更高
             failCount = failCount + 1  # 那就又失敗一次
-    return (p, fnow)                    # 結束傳回 （已經失敗超過一萬次了）
+    return (p, fnow)                   # 結束傳回 （已經失敗超過一萬次了）
 
 def f(p):
     x, y, z = p[0], p[1], p[2]
